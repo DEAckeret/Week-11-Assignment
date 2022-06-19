@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe!</title>
+    <link rel = "stylesheet" href = 'node_modules/bootstrap/dist/css/bootstrap.css'>
+    <link rel = "stylesheet" href = 'styles.css'>
+</head>
+<body class = 'container'>
+    <h1 style = 'text-align: center; margin-top: 10px'>This is Tic-Tac-Toe!</h1>
+    <h2 id = 'whoTurn' style = 'text-align: center; margin-top: 10px'>placeholdingMessage</h2>
+        <div class = 'container' id = 'gameBoard'> 
+            <div class = 'row' style = 'margin-top: 50px; padding-top: 90px;'>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxOne'>T</p>
+                </div>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxTwo'>I</p>
+                </div>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxThree'>C</p>
+                </div>
+            </div>
+            <div class = 'row'>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxFour'>T</p>
+                </div>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxFive'>A</p>
+                </div>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxSix'>C</p>
+                </div>
+            </div>
+            <div class = 'row'>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxSeven'>T</p>
+                </div>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxEight'>0</p>
+                </div>
+                <div class = 'card'>
+                    <p class = 'marker' id = 'boxNine'>E</p>
+                </div>
+            </div>
+        </div>
+
+        <button class = '' id = 'reset'>Reset</button>
+
+        <!--<div class = 'card'>
+            <p class = 'marker' id = 'boxNine'>E</p>
+        </div> example in case I need it-->
+
+
+
+
+
+
+    <script src = 'node_modules/jquery/dist/jquery.js'></script>
+    <script src = 'index.js'></script>
+    <script src = 'node_modules/bootstrap/dist/js/bootstrap.bundle.js'></script>
+</body>
+</html>
